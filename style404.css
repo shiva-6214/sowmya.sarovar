@@ -1,0 +1,18 @@
+html body {
+    background-color: rgb(234, 233, 232);
+}
+
+#fourimg {
+    width: auto;
+    height: auto;
+}
+
+h4 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#btnGoBack {
+    text-align: center;
+    margin-top: 15px;
+}
