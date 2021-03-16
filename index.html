@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sowmya Sarovar | Verify</title>
+    <link rel="icon" href="event/icon.png">
+    <link rel="stylesheet" type="text/css" href="styleredirect.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	
+	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <script src="mainre.js"></script>
+</head>
+<body onload="generate()">
+	<marquee width="100%" onmouseover="this.stop();" onmouseout="this.start();" direction="left" class="mar">
+        	Feel free to ask question on <b>support@sarovar.ml</b>
+    </marquee>
+    <div class="container" id="con">
+        <h1 id="h1-reca">Sowmya Sarovar - VERIFY</h1>
+
+        <div class="divveri col-lg-4 col-md-4 col-sm-6 col-xs-11">
+            <h4>Enter any one of the security's name</h4>
+            <input type="text" class="form-control btn-block"aria-label="Username" aria-describedby="basic-addon1" id="entersec" placeholder="Enter name of any security">
+
+            
+            <!--<input type="text" class="form-control btn-block" readonly id="generated-captcha">
+            <input type="text" class="form-control btn-block" id="entered-captcha" placeholder="Enter the captcha..">
+            <button type="button" class="btn btn-danger btn-lg btn-block" onclick="generate()" id="gen">
+                Generate New Captcha
+            </button>-->
+            <h3><u>Captcha</u></h3>
+            <br>
+            <h4 id="captext"></h4>
+            <input type="text" class="form-control btn-block"aria-label="Username" aria-describedby="basic-addon1" id="entercap" placeholder="Enter Captcha...">
+
+            <button type="button" class="btn btn-success btn-lg btn-block" onclick="check()">Submit</button>
+            
+            <!--////////-->
+            <!--<div class="wrapper"></div>
+                <h2 id="status" style="color: #ee7e6a;"></h2>
+                <div>
+                    <input type="text" readonly id="generated-captcha">
+                </div>
+                <div>
+                    <input type="text" id="entered-captcha" placeholder="Enter the captcha..">
+                </div>
+                <button type="button" onclick="check()">
+                    check
+                </button>
+                <button type="button" onclick="generate()" id="gen">
+                    Generate New
+                </button>
+            -->
+            
+    </div>
+</body>
+</html>
